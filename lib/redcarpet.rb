@@ -25,7 +25,7 @@ module Redcarpet
     # A renderer object you can use to deal with users' input. It
     # enables +escape_html+ and +safe_links_only+ by default.
     #
-    # The +block_code+ callback is also overriden not to include
+    # The +block_code+ callback is also overridden not to include
     # the lang's class as the user can basically specify anything
     # with the vanilla one.
     class Safe < HTML
